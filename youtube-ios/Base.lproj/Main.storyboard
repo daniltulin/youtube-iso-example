@@ -21,16 +21,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mvo-mn-yIN" customClass="YTPlayerView">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mvo-mn-yIN" customClass="YTPlayerView">
                                 <rect key="frame" x="67" y="269" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="mvo-mn-yIN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jjN-bG-WDf"/>
-                            <constraint firstItem="mvo-mn-yIN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="sau-ST-UQb"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="playerView" destination="mvo-mn-yIN" id="BiI-10-021"/>
