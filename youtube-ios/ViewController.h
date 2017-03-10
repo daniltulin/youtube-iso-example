@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "YTPlayerView.h"
+
 @interface ViewController : UIViewController
 
+@property(nonatomic, strong) IBOutlet YTPlayerView *playerView;
 
 @end
 

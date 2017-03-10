@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53B41D69B5C056FC957688F1F7D75203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		76A84F4AAC73579443901C375AD555E0 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6950FC72124604AC0C0E82C68D12D3 /* YTPlayerView.m */; };
+		A07560355C5DFCA1B5EBCF6199D3F446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AD7AD209AD3B87E08B18958C10CC2766 /* Pods-youtube-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE418962299370B7FC0D58FBC663F20 /* Pods-youtube-ios-dummy.m */; };
+		B98026D8D4BA8CE496AC558B975A3125 /* YTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57412ECC2E6F0968B0C2F3F1F1EA9F04 /* YTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF1AA6806D2754EA68E5B4D8520DB2B7 /* youtube-ios-player-helper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEDD2F689CF607F4114F7FE184DD249 /* youtube-ios-player-helper-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0898611359B43B8F5E4EA07481D489D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56B68C5973DE73AB25268580110D51FE;
+			remoteInfo = "youtube-ios-player-helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A40FAC35AB76E784CAF7E4A46977754 /* youtube-ios-player-helper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-prefix.pch"; sourceTree = "<group>"; };
+		0F6950FC72124604AC0C0E82C68D12D3 /* YTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = Classes/YTPlayerView.m; sourceTree = "<group>"; };
+		1658DC5364138AF21DD35661376BAA6E /* Pods-youtube-ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-youtube-ios-resources.sh"; sourceTree = "<group>"; };
+		1AA2DCF4A8CFC3BE0014F638097D8069 /* libPods-youtube-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-youtube-ios.a"; path = "libPods-youtube-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FCF9DCF97EC740551627EC48D05036 /* Pods-youtube-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-youtube-ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		57412ECC2E6F0968B0C2F3F1F1EA9F04 /* YTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = Classes/YTPlayerView.h; sourceTree = "<group>"; };
+		64DF77334BE64AEC6897F7ECA64684A9 /* youtube-ios-player-helper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.xcconfig"; sourceTree = "<group>"; };
+		6A30AAB7EB395B893867705AE923F526 /* Pods-youtube-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		71AF025C10E4AAD767712F1077BFCC4F /* Pods-youtube-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-youtube-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75AAE8C801E7BA7FD22F79B9315BF4E5 /* Pods-youtube-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-youtube-ios-frameworks.sh"; sourceTree = "<group>"; };
+		865FAC2310658C66B97EA01757D5D769 /* Assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Assets.bundle; path = "youtube-ios-player-helper/Assets.bundle"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9EBD01D7F2074E266C8D1B41F32EF27 /* libyoutube-ios-player-helper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libyoutube-ios-player-helper.a"; path = "libyoutube-ios-player-helper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE418962299370B7FC0D58FBC663F20 /* Pods-youtube-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-youtube-ios-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F704A76629C91FF6A6D2C014782A1E67 /* Pods-youtube-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-youtube-ios.release.xcconfig"; sourceTree = "<group>"; };
+		FFEDD2F689CF607F4114F7FE184DD249 /* youtube-ios-player-helper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "youtube-ios-player-helper-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		320537EE3AE467A734FCB22A6EDA3FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07560355C5DFCA1B5EBCF6199D3F446 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE164316D17644EE6A079F10197CF2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B41D69B5C056FC957688F1F7D75203 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49ACDEEF3EE89D71A113D0314DC20308 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7EFEC373FEB17ADA1B3ED1756941972 /* Pods-youtube-ios */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		74B63434E33D695524BB47A0137F3D8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				865FAC2310658C66B97EA01757D5D769 /* Assets.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EFBD6D5070879E977E70ED78BBDF7218 /* Pods */,
+				8868E55166619467ED6092FC805B8F01 /* Products */,
+				49ACDEEF3EE89D71A113D0314DC20308 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8868E55166619467ED6092FC805B8F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AA2DCF4A8CFC3BE0014F638097D8069 /* libPods-youtube-ios.a */,
+				A9EBD01D7F2074E266C8D1B41F32EF27 /* libyoutube-ios-player-helper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F75175312662FA820011803EC0CAC9E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64DF77334BE64AEC6897F7ECA64684A9 /* youtube-ios-player-helper.xcconfig */,
+				FFEDD2F689CF607F4114F7FE184DD249 /* youtube-ios-player-helper-dummy.m */,
+				0A40FAC35AB76E784CAF7E4A46977754 /* youtube-ios-player-helper-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7EC8D6CFE00F4FA42CFEEFF9DB719C0 /* youtube-ios-player-helper */ = {
+			isa = PBXGroup;
+			children = (
+				57412ECC2E6F0968B0C2F3F1F1EA9F04 /* YTPlayerView.h */,
+				0F6950FC72124604AC0C0E82C68D12D3 /* YTPlayerView.m */,
+				74B63434E33D695524BB47A0137F3D8E /* Resources */,
+				9F75175312662FA820011803EC0CAC9E /* Support Files */,
+			);
+			name = "youtube-ios-player-helper";
+			path = "youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		D7EFEC373FEB17ADA1B3ED1756941972 /* Pods-youtube-ios */ = {
+			isa = PBXGroup;
+			children = (
+				71AF025C10E4AAD767712F1077BFCC4F /* Pods-youtube-ios-acknowledgements.markdown */,
+				21FCF9DCF97EC740551627EC48D05036 /* Pods-youtube-ios-acknowledgements.plist */,
+				ABE418962299370B7FC0D58FBC663F20 /* Pods-youtube-ios-dummy.m */,
+				75AAE8C801E7BA7FD22F79B9315BF4E5 /* Pods-youtube-ios-frameworks.sh */,
+				1658DC5364138AF21DD35661376BAA6E /* Pods-youtube-ios-resources.sh */,
+				6A30AAB7EB395B893867705AE923F526 /* Pods-youtube-ios.debug.xcconfig */,
+				F704A76629C91FF6A6D2C014782A1E67 /* Pods-youtube-ios.release.xcconfig */,
+			);
+			name = "Pods-youtube-ios";
+			path = "Target Support Files/Pods-youtube-ios";
+			sourceTree = "<group>";
+		};
+		EFBD6D5070879E977E70ED78BBDF7218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7EC8D6CFE00F4FA42CFEEFF9DB719C0 /* youtube-ios-player-helper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F537A7A576D43CA7E3051BFD4332127 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98026D8D4BA8CE496AC558B975A3125 /* YTPlayerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56B68C5973DE73AB25268580110D51FE /* youtube-ios-player-helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3479F314428BA979E4C110572BAB828E /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */;
+			buildPhases = (
+				E3B5918835085F031317308FF8087A6B /* Sources */,
+				320537EE3AE467A734FCB22A6EDA3FEF /* Frameworks */,
+				3F537A7A576D43CA7E3051BFD4332127 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "youtube-ios-player-helper";
+			productName = "youtube-ios-player-helper";
+			productReference = A9EBD01D7F2074E266C8D1B41F32EF27 /* libyoutube-ios-player-helper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A0D9799BC1C304090DD16F5DE64EB9C0 /* Pods-youtube-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4247AB6CC8A787DFC329D7B1BBE8B91B /* Build configuration list for PBXNativeTarget "Pods-youtube-ios" */;
+			buildPhases = (
+				35D2709B8C48330C2531394958722E88 /* Sources */,
+				EE164316D17644EE6A079F10197CF2E9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7595C4D4F13168E95759CAF6F3578210 /* PBXTargetDependency */,
+			);
+			name = "Pods-youtube-ios";
+			productName = "Pods-youtube-ios";
+			productReference = 1AA2DCF4A8CFC3BE0014F638097D8069 /* libPods-youtube-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8868E55166619467ED6092FC805B8F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0D9799BC1C304090DD16F5DE64EB9C0 /* Pods-youtube-ios */,
+				56B68C5973DE73AB25268580110D51FE /* youtube-ios-player-helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35D2709B8C48330C2531394958722E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7AD209AD3B87E08B18958C10CC2766 /* Pods-youtube-ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B5918835085F031317308FF8087A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1AA6806D2754EA68E5B4D8520DB2B7 /* youtube-ios-player-helper-dummy.m in Sources */,
+				76A84F4AAC73579443901C375AD555E0 /* YTPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7595C4D4F13168E95759CAF6F3578210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "youtube-ios-player-helper";
+			target = 56B68C5973DE73AB25268580110D51FE /* youtube-ios-player-helper */;
+			targetProxy = 0898611359B43B8F5E4EA07481D489D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16E4AE761EC3448866AA009F4DD10989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F704A76629C91FF6A6D2C014782A1E67 /* Pods-youtube-ios.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		64E30288DF23AC3CF976C201932F67D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DF77334BE64AEC6897F7ECA64684A9 /* youtube-ios-player-helper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDEAED2434C6C8FF6B09E0F7EB53AA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DF77334BE64AEC6897F7ECA64684A9 /* youtube-ios-player-helper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D137A38457CD47717E2502905B820BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A30AAB7EB395B893867705AE923F526 /* Pods-youtube-ios.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3479F314428BA979E4C110572BAB828E /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E30288DF23AC3CF976C201932F67D1 /* Debug */,
+				CDEAED2434C6C8FF6B09E0F7EB53AA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4247AB6CC8A787DFC329D7B1BBE8B91B /* Build configuration list for PBXNativeTarget "Pods-youtube-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D137A38457CD47717E2502905B820BD4 /* Debug */,
+				16E4AE761EC3448866AA009F4DD10989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
